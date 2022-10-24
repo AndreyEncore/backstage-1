@@ -1,6 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  annotations:
+    opensearch.io/index: orderr
+    opensearch.io/tenant: amdin-tenant
   name: playback-order
   description: Playback Order
   tags:
