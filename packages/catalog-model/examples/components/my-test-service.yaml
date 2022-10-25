@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    opensearch.io/index: test-team
+    opensearch.io/tenant: test_team_tenant
+  name: my-test-service
+  description: Playback Order
+  tags:
+    - java
+    - playback
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: audio-playback
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
