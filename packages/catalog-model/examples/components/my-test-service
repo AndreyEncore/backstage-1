@@ -4,7 +4,7 @@ metadata:
   annotations:
     opensearch.io/index: test-team
     opensearch.io/tenant: test_team_tenant
-  name: playback-order
+  name: my-test-service
   description: Playback Order
   tags:
     - java
