@@ -13,7 +13,7 @@ spec:
   type: service
   lifecycle: production
   owner: user:guest
-  system: audio-playback
+  system: test
 Footer
 © 2022 GitHub, Inc.
 Footer navigation
